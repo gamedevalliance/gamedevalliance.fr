@@ -132,6 +132,10 @@ footer {
         transition-duration: .4s;
         position: absolute;
     }
+
+    &:first-of-type {
+        margin-bottom: 1em;
+    }
 }
 
 .youtube-thumbnail {
@@ -163,8 +167,6 @@ footer {
 
     i {
         margin-right: 0.6em;
-        transform: translateZ(0);
-        transition-timing-function: ease-out;
     }
 
     &:hover {
@@ -180,7 +182,7 @@ footer {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1060px) {
     main {
         width: 85%;
     }
@@ -189,6 +191,22 @@ footer {
         margin: 0 1.28em;
     }
 
+    .youtube-group>a {
+        margin: 0 1em;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .bouton {
+        margin: 0 1.1em;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .youtube-group+.bouton-group {
+        margin-top: .625em;
+    }
 }
 
 @media screen and (max-width: 600px) {

@@ -128,6 +128,7 @@ footer {
         width: 246px;
         height: 138px;
         background-color: #e48564;
+        border-radius: 6px;
         opacity: 0;
         transition-duration: .4s;
         position: absolute;
@@ -140,6 +141,7 @@ footer {
 
 .youtube-thumbnail {
     width: 246px;
+    border-radius: 6px;
     transition-duration: .4s;
     position: relative;
 }
